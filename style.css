@@ -1,0 +1,300 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+ {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+body{
+     background-color:  #aab2ff;
+     color: rgb(150, 76, 49);;
+     margin: 0;
+     height: 100%;}
+
+.first-h1{
+    font-size:100px;
+    text-align: center;
+    background-image: url("https://sabella-first-webpers.netlify.app/2.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    color: transparent;}
+
+   .span-p{font-family: 'Dancing Script', cursive;
+       font-size: 35px;
+        color: rgb(167, 157, 157);}
+
+   h3{ font-size: 50px;
+    text-align: center;}
+
+   .nav-link{
+        display: flex;
+        justify-content: space-around;}
+
+  a{font-size: 25px;
+    color: rgba(89, 110, 103, 0.929);
+}
+
+    a:hover{
+        /* background: rgb(209, 237, 228); */
+        color: rgb(150, 76, 49);}
+
+    .card{display: flex;
+        border: 2px solid rgb(128, 121, 106);
+        border-radius: 20px;
+        padding: 15px;
+        margin-top: 30px;
+       height: 300px;
+       width: 700px;
+      align-items: center;
+      margin: 40px auto;}
+
+  img{margin-right: 15px;
+    border-radius: 20px;}
+
+  .personal-container{
+/*     background-color:  #aab2ff; */
+}
+
+  .container{
+    width:900px;
+    border: 2px solid rgb(79, 26, 26);
+    margin: 10px auto;
+    /* background-image: ;
+    background-size: cover; */
+    /* background-color: #9bafd9; */
+/*     background-image: linear-gradient(#9bafd9, #b8a4c9); */
+}
+
+  .fibosec{ width:900px;
+    border: 2px solid rgb(79, 26, 26);
+    margin: 10px auto;
+    /* background-image: ;
+    background-size: cover; */
+    /* background-color: #9bafd9; */
+/*     background-image: linear-gradient(#211f2f, #918ca9); */
+}
+
+  .dosec{
+/*     background: #5a6776; */
+}
+
+  #child{display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(105, 82, 28);
+    border-top: 2px solid rgb(105, 82, 28);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    height: 450px;
+    width: 870px;
+    align-items: center;
+    /* background-image: url("55.webp");
+    background-size: cover; */
+    margin: 40px auto;}
+
+  #health{
+    border-bottom: 2px solid rgb(105, 82, 28);
+    border-top: 2px solid rgb(105, 82, 28);
+    border-radius: 20px;
+    margin: 20px;}
+   p{
+    text-align: center;} 
+
+  .pic{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;}
+
+  .im{
+    padding: 15px;}
+
+  .par{font-size: 20px;}
+
+  .ch{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+/*     color: black; */
+}
+
+  .link{
+    font-size: 25px;
+/*     color: rgba(107, 41, 52, 0.929); */
+}
+
+  #link:hover{
+     /* background: rgb(209, 237, 228); */
+     color: rgb(150, 76, 49);}
+
+  .page{
+    font-size:100px;
+    text-align: center;
+    background-image: url("https://sabella-first-webpers.netlify.app/IMG-20230111-   WA0014.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow:2px rgb(82, 75, 75);}
+
+  .fut{
+    font-size:100px;
+    text-align: center;
+    background:white;
+    background-size: contain;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow:2px rgb(82, 75, 75);}
+
+  .linksec{
+    font-size: 25px;
+    color: rgb(205, 190, 190);}
+
+  #teen, #hobby, #social, #Profession{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(105, 82, 28);
+    border-top: 2px solid rgb(105, 82, 28);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    height: 450px;
+    width: 870px;
+    align-items: center;}
+
+   .man{
+     font-weight: bold;}
+
+   .lis{
+    font-size: 21px;}
+
+  .tex{
+    text-align: center;
+    margin-top: 30px;}
+
+  .pli{
+    font-size: 22px;
+/*     color: white */
+    /* font-weight: bold; */ 
+    font-style:italic;
+    text-shadow: 1px 1px 2px black;}
+
+  button{
+    background: rgb(67, 160, 67);
+    border: 2px rgb(67, 160, 67) ;
+    color: white;
+    padding: 0.75rem;}
+
+  .nk{
+    font-size: 18px;
+/*     color: rgb(72, 72, 182); */
+}
+
+  .nav{
+    border-bottom: 2px solid rgb(105, 82, 28);
+    border-top: 2px solid rgb(105, 82, 28);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    height: 25px;
+    width: 870px;
+    display: flex;
+    justify-content: space-around;}
+
+  #fp{
+    background-image: url("https://sabella-first-webpers.netlify.app/open.jpg");
+    width:195px;
+    height:250px;
+    background-size: cover;}
+
+  #fp:hover{
+    background-image:url("	https://sabella-first-webpers.netlify.app/veg.webp");
+    background-size: cover;}
+
+  #fpa{
+    background-image: url("https://sabella-first-webpers.netlify.app/open.jpg");
+    width:195px;
+    height:250px;
+    background-size: cover;}
+
+  #fpa:hover{
+    background-image:url("https://sabella-first-webpers.netlify.app/gym.webp");
+    background-size: cover;}
+
+  #fpb{
+    background-image: url("https://sabella-first-webpers.netlify.app/open.jpg");
+    width:195px;
+    height:250px;
+    background-size: cover;}
+
+  #fpb:hover{
+    background-image:url("https://sabella-first-webpers.netlify.app/sleep\ ea.webp");
+    background-size: cover;}
+
+ .hel{text-align: center;}
+
+ .dy{
+    width: 900px;
+    border: 2px solid white;
+    margin:0 auto;}
+ 
+ .see{
+    border-bottom:2px solid #727a9a ;
+    padding-bottom: 20px;}
+
+ .se{color: white;}
+  
+  #form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px ;
+    padding: 30px;
+    /* margin: 0 auto; */
+    /* padding: 30px; */
+   justify-content: space-between;
+   height: 200px;
+   border-top:2px solid white ;
+/*    background-image: linear-gradient(#727a9a,#d8dbe9); */
+}
+
+ .form{
+  width: 90%;}
+
+  .con{
+     border: 2px solid #727a9a;
+     margin:60px auto;
+     width:600px}
+
+  label{font-size: 20px;
+    color: white;}
+  .las{
+/*     background-image: linear-gradient(#8e6865,#b2a496); */
+}
+  .mee{
+    font-size:100px;
+    text-align: center;
+    background:white;
+    background-size: contain;
+   -webkit-background-clip: text;
+    color: transparent;}
+
+  .fot{
+    color: #d8dbe9;}
+.game{
+  border: 2px solid #727a9a;
+     margin:60px auto;
+     width:600px
+}  
+.game1{
+  font-family: 'Dancing Script';
+  font-size:50px;
+  
+}
